@@ -14,7 +14,7 @@ dim lngUpSize,uploader,intError
 	uploader.MaxSize  = 10000*1024
 	uploader.FileType = "gif/jpg/png/bmp"
 	'服务器域名
-	Dim domain : domain = "http://localhost:94/asp/"	
+	Dim domain : domain = "http://localhost:84/asp/"	
 	Dim dateNow : dateNow = Date()
 	'存储路径：upload/年/月/日/
 	Dim filePath : filePath = "upload/" & Year(dateNow) & "/" & Month(dateNow) & "/" & Day(dateNow) & "/"
